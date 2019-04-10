@@ -128,3 +128,7 @@ Options -MultiViews
 <IfModule mod_headers.c>
   RequestHeader unset Proxy
 </IfModule>
+
+<Directory "/home/forum.flutterando.com.br/public">
+        AllowOverride All
+   </Directory>
